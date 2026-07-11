@@ -349,5 +349,5 @@ export const DATA = {
       video: "",
     }
   ],
-  hackathons: [],
+  hackathons: [] as { title: string, dates: string, location: string, description: string, image: string, links: { title: string, icon: any, href: string }[] }[],
 } as const;
