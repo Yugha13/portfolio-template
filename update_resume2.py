@@ -1,4 +1,6 @@
-import { Icons } from "@/components/icons";
+import json
+
+resume_content = """import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 import { ReactLight } from "@/components/ui/svgs/reactLight";
 import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
@@ -199,7 +201,7 @@ export const DATA = {
       location: "",
       description: "Won 1st place in InnovateX Hackathon out of numerous participants, demonstrating innovative problem-solving and rapid prototyping skills.",
       image: "",
-      links: [] as any[]
+      links: []
     },
     {
       title: "Multiple Hackathons (Top 3)",
@@ -207,7 +209,7 @@ export const DATA = {
       location: "",
       description: "Secured Top 3 placements in 2 different hackathons.",
       image: "",
-      links: [] as any[]
+      links: []
     },
     {
       title: "Various Hackathons (Top 10)",
@@ -215,7 +217,11 @@ export const DATA = {
       location: "",
       description: "Participated in 10+ hackathons overall, and ranked in the Top 10 in 5 of them.",
       image: "",
-      links: [] as any[]
+      links: []
     }
   ],
 } as const;
+"""
+
+with open("/Users/Developer/portfolio/src/data/resume.tsx", "w") as f:
+    f.write(resume_content)
