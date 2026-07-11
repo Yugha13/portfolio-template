@@ -53,6 +53,12 @@ export const DATA = {
         icon: Icons.linkedin,
         navbar: true,
       },
+      Website: {
+        name: "Main Portfolio",
+        url: "https://yugha.me",
+        icon: Icons.globe,
+        navbar: true,
+      },
       X: {
         name: "X",
         url: "https://x.com/yugha_13",
