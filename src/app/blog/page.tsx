@@ -7,15 +7,15 @@ import { ChevronRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Blog",
-  description: "Thoughts on software development, life, and more.",
+  description: "Writing about full stack development, software architecture, AI tools, copywriting, and building digital products.",
   openGraph: {
     title: "Blog",
-    description: "Thoughts on software development, life, and more.",
+    description: "Writing about full stack development, software architecture, AI tools, copywriting, and building digital products.",
   },
   twitter: {
     card: "summary_large_image",
     title: "Blog",
-    description: "Thoughts on software development, life, and more.",
+    description: "Writing about full stack development, software architecture, AI tools, copywriting, and building digital products.",
   },
 };
 
